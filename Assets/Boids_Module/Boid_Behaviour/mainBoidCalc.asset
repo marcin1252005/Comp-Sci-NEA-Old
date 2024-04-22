@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9408b3789f7d6ae49bef265b1eb1aa3c, type: 3}
+  m_Name: mainBoidCalc
+  m_EditorClassIdentifier: 
+  resultantVectors:
+  - {fileID: 11400000, guid: 79326df7cacf8e94ab88a6b406d8bffd, type: 2}
+  - {fileID: 11400000, guid: e0434dbc99156b74f8ff03080cb7d031, type: 2}
+  - {fileID: 11400000, guid: e69fc962a264b88448ab7048475d64c1, type: 2}
+  weights:
+  - 3
+  - 3
+  - 3
