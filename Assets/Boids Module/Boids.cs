@@ -90,9 +90,13 @@ public class Boids : MonoBehaviour
             //create a list of transforms of all the boids within visual range of another boid
             Vector3 updatePosition = resultantVector.calcBoids(agent, environment, this);
             updatePosition *= speedMultiplier;
+            //change vector by the speed multiplier
             if (updatePosition.sqrMagnitude > getSquareMaxSpeed)
+            //check if exceeds max speed
             {
                 updatePosition = updatePosition.normalized * maxSpeed;
+                //if exceeds max speed, normalise and reduce magnitude to 1
+                //then multiply by maxSpeed to reset magnitude to maxSpeed
             }
                 
            //calculates final vector for each agent given its environment in the array
